@@ -136,7 +136,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 146169812}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -300,9 +300,10 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 725
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -327,7 +328,7 @@ MonoBehaviour:
     spaceCount: 129
     wordCount: 128
     linkCount: 0
-    lineCount: 19
+    lineCount: 22
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -373,7 +374,7 @@ MonoBehaviour:
   ShowTextBounds: 0
   ObjectStats: 'Characters: 773   Words: 128   Spaces: 129   Sprites: 0   Links: 0
 
-    Lines: 19   Pages: 1'
+    Lines: 22   Pages: 1'
 --- !u!1 &1728718679
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +385,6 @@ GameObject:
   - component: {fileID: 1728718683}
   - component: {fileID: 1728718682}
   - component: {fileID: 1728718681}
-  - component: {fileID: 1728718680}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -392,18 +392,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1728718680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1728718679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ForceModuleActive: 0
 --- !u!114 &1728718681
 MonoBehaviour:
   m_ObjectHideFlags: 0
